@@ -4,12 +4,10 @@ class Sentence:
     
     def get_first_word(self):
         all_words = self.sentence.split()
-        first = all_words[0]
-        return first
+        return all_words[0]
     
     def get_all_words(self):
-        all_words = self.sentence.split()
-        return all_words
+        return self.sentence.split()
 
     def replace(self, index, new_word):
         try:
