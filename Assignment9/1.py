@@ -1,0 +1,5 @@
+file = open("test.txt", "r")
+contents = file.read()
+contents = contents.replace(" ", "")
+contents = contents.replace("\n", "")
+print(contents)
